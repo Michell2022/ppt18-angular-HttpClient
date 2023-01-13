@@ -1,1 +1,23 @@
-<p>home works!</p>
+<div class="w-1/2 text-center mx-auto mt-6">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>userID</th>
+                <th>TITULO</th>
+                <th>DETALLES</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- <tr *ngFor let dato of datos> -->
+                <!-- <td>{{dato.userid}}</td>
+                <td>{{dato.titulo}}</td> -->
+            <!-- </tr> -->
+        </tbody>
+    </table>
+</div>
+
+<ul >
+    <li *ngFor="let datin of entrada">
+        {{datin | json}}
+    </li>
+</ul>
