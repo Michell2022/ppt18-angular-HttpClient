@@ -1,0 +1,31 @@
+#error__404 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.primero {
+    position: relative;
+}
+
+.segundo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.segundo button{
+    background: #ff8c1d;
+    border: 2px solid #bf6458;
+    border-radius: 22px;
+    font-size: 30px;
+    padding: 2px 50px;
+    color: white;
+    transition: 300ms;
+}
+
+.segundo button:hover {
+    background: white;
+    color: #ff8c1d;
+}

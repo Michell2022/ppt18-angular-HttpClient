@@ -11,8 +11,11 @@ export class DataService {
 
   constructor(private http:HttpClient) { }
 
-  getAll():Observable<string[]>{
+  getData():Observable<string[]>{
     return this.http.get<string[]>(this.Myurl);
   }
 
+  getItem(id: number): Observable<any> {
+    return this.http.get(`${this.Myurl}/${id}`);
+  }
 }

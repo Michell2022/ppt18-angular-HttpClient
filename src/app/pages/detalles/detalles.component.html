@@ -1,1 +1,19 @@
-<p>detalles works!</p>
+<div class="container w-1/2 p-4 mt-6 rounded bg-white shadow-[0_0_10px_1px_rgba(0,0,0,0.2)] " >
+    <p class="text-center font-bold text-3xl">ESTAS EN DETALLES</p>
+    <div class="mb-4">
+        <label class="form-label" for="">User ID</label>
+        <input class="form-control" type="text" [(ngModel)]="obtenerInfo.userId">
+    </div>
+    <div class="mb-4">
+        <label class="form-label" for="">ID</label>
+        <input class="form-control" type="text" [(ngModel)]="obtenerInfo.id">
+    </div>
+    <div class="mb-4">
+        <label class="form-label" for="">TITULO</label>
+        <input class="form-control" type="text" [(ngModel)]="obtenerInfo.title">
+    </div>
+    <div class="mb-4">
+        <label class="form-label" for="">COMPLETADO</label>
+        <input class="form-control" type="text" [(ngModel)]="obtenerInfo.completed">
+    </div>
+</div>

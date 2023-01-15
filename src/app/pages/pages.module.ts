@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { DetallesComponent } from './detalles/detalles.component';
 import { BreakingComponent } from './breaking/breaking.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -15,7 +16,8 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   imports: [
     CommonModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   exports: [
     HomeComponent,

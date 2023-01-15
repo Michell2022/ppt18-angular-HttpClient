@@ -7,7 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 const routes: Routes = [
 
   { path:'', component:HomeComponent },
-  { path:'detalles', component:DetallesComponent },
+  { path:'detalles/:id', component:DetallesComponent },
   { path:'404', component:BreakingComponent },
   { path:'**', redirectTo:'404', pathMatch:'full' }
 
